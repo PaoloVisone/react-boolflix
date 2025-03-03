@@ -1,6 +1,5 @@
 // Componenti importati:
-import Header from "./components/Header"
-import Main from "./components/Main"
+import Home from './pages/Home'
 
 import './App.css'
 
@@ -8,8 +7,7 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Main />
+      <Home />
     </>
   )
 }
